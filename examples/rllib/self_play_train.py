@@ -15,6 +15,8 @@
 
 import os
 
+import utils
+
 from meltingpot import substrate
 import ray
 from ray import air
@@ -22,7 +24,7 @@ from ray import tune
 from ray.rllib.algorithms import ppo
 from ray.rllib.policy import policy
 
-import utils
+
 
 
 def get_config(

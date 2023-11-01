@@ -15,17 +15,6 @@
 
 from typing import Tuple
 
-import dm_env
-import dmlab2d
-from gymnasium import spaces
-from meltingpot import substrate
-from meltingpot.utils.policies import policy
-from ml_collections import config_dict
-import numpy as np
-from ray.rllib import algorithms
-from ray.rllib.env import multi_agent_env
-from ray.rllib.policy import sample_batch
-
 
 import sys
 import os
@@ -38,6 +27,21 @@ print(sys.path)
 
 # importing
 from gym import utils
+
+
+import dm_env
+import dmlab2d
+from gymnasium import spaces
+from meltingpot import substrate
+from meltingpot.utils.policies import policy
+from ml_collections import config_dict
+import numpy as np
+from ray.rllib import algorithms
+from ray.rllib.env import multi_agent_env
+from ray.rllib.policy import sample_batch
+
+
+
 
 
 #from ..gym import utils
