@@ -3,12 +3,12 @@ dm_env
 dm_meltingpot
 dm_tree
 dmlab2d
-gymnasium
+gymnasium==0.28.1
 matplotlib
 ml_collections
 numpy
 pettingzoo>=1.22.3
-ray[rllib,default]==2.5.0
+ray[rllib,default]==2.7.1
 stable_baselines3
 supersuit>=3.7.2
 torch
