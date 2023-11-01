@@ -22,7 +22,7 @@ from ray import tune
 from ray.rllib.algorithms import ppo
 from ray.rllib.policy import policy
 
-from . import utils
+import utils
 
 
 def get_config(
