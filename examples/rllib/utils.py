@@ -50,6 +50,13 @@ class MeltingPotEnv(multi_agent_env.MultiAgentEnv):
     Args:
       env: dmlab2d environment to wrap. Will be closed when this wrapper closes.
     """
+
+    # ----- TMP ---------
+    print("------")
+    print(utils._WORLD_PREFIX)
+    print("------")
+    # ------ END TMP ------
+
     self._env = env
     self._num_players = len(self._env.observation_spec())
     self._ordered_agent_ids = [
