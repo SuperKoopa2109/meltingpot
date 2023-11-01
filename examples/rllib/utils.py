@@ -26,7 +26,17 @@ from ray.rllib import algorithms
 from ray.rllib.env import multi_agent_env
 from ray.rllib.policy import sample_batch
 
-from ..gym import utils
+
+import sys
+
+# setting path
+sys.path.append('../gym')
+
+# importing
+from gym import utils
+
+
+#from ..gym import utils
 
 PLAYER_STR_FORMAT = 'player_{index}'
 
