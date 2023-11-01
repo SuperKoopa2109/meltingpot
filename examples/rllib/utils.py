@@ -26,9 +26,9 @@ sys.path.append(parent_dir)
 print(sys.path)
 
 # importing
-from gym import utils
-import gym
-print(gym)
+from gym_conf import utils
+import gym_conf
+print(gym_conf)
 
 
 import dm_env
