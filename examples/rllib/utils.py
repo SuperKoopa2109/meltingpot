@@ -23,12 +23,8 @@ import os
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append(parent_dir)
 
-print(sys.path)
-
 # importing
 from gym_conf import utils
-import gym_conf
-print(gym_conf)
 
 
 import dm_env
@@ -60,12 +56,6 @@ class MeltingPotEnv(multi_agent_env.MultiAgentEnv):
     Args:
       env: dmlab2d environment to wrap. Will be closed when this wrapper closes.
     """
-
-    # ----- TMP ---------
-    print("------")
-    print(utils._WORLD_PREFIX)
-    print("------")
-    # ------ END TMP ------
 
     self._env = env
     self._num_players = len(self._env.observation_spec())
