@@ -29,7 +29,7 @@ from ray.rllib.policy import policy
 
 def get_config(
     substrate_name: str = "bach_or_stravinsky_in_the_matrix__repeated",
-    num_rollout_workers: int = 2,
+    num_rollout_workers: int = 1,
     rollout_fragment_length: int = 100,
     train_batch_size: int = 6400,
     fcnet_hiddens=(64, 64),
