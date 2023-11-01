@@ -20,6 +20,10 @@ from gymnasium import spaces
 import numpy as np
 import tree
 
+
+print('--------------')
+print('------WTFWTFWTF----')
+print('--------------')
 PLAYER_STR_FORMAT = 'player_{index}'
 _WORLD_PREFIX = 'WORLD.'
 
