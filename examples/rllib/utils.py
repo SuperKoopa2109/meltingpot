@@ -28,9 +28,11 @@ from ray.rllib.policy import sample_batch
 
 
 import sys
+import os
 
 # setting path
-sys.path.append('../gym')
+parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append(parent_dir)
 
 # importing
 from gym import utils
