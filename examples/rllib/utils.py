@@ -27,6 +27,8 @@ print(sys.path)
 
 # importing
 from gym import utils
+import gym
+print(gym)
 
 
 import dm_env
